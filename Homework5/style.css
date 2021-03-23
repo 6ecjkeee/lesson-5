@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  /* border: 2px solid red; */
+}
+
+.socialWrap {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  max-width: 71.875rem;
+  margin: 0 auto;
+}
+
+.social {
+  width: 35%;
+  padding-top: 18px;
+  margin-bottom: 6px;
+}
+
+.s_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.socNet {
+  width: 32%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 32px;
+}
+
+.shell {
+  width: 80%;
+  max-width: 71.875rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section {
+  padding-top: 102px;
+}
+
+.sectionWrapper {
+  margin-bottom: 66px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.line {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: #ff8b38;
+}
+
+.textContent {
+  font-size: 14px;
+  color: #86878b;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 111px;
+}
+
+.item {
+  width: 30%;
+}
+
+.itemImage {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid orange;
+  border-radius: 50%;
+}
+
+.lamp {
+  background-image: url(./images/1.png);
+}
+
+.keyboard {
+  background-image: url(./images/2.png);
+}
+
+.lightning {
+  background-image: url(./images/3.png);
+}
+
+.itemTitle {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.b_color {
+  background-color: #f5f5f5;
+}
+
+.price {
+  padding-top: 102px;
+}
+
+.priceWrap {
+  margin-bottom: 81px;
+}
+
+.list {
+  width: 30%;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.color {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.subject {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 1px;
+  background-color: #333333;
+  font-size: 20px;
+}
+
+.cost {
+  padding-top: 38px;
+  padding-bottom: 38px;
+  margin-bottom: 1px;
+  background-color: #333333;
+  font-size: 24px;
+}
+
+.payments {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 1px;
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.rectangle {
+  padding: 5px;
+  margin-bottom: 1px;
+  background-color: orange;
+}
+
+.mostPopular {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 1px;
+  background-color: orange;
+}
+
+.custom {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 1px;
+  background-color: #ffffff;
+  color: #86878b;
+}
+
+.customers {
+  padding-top: 73px;
+  margin-bottom: 85px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.text {
+  width: 25%;
+  padding: 25px 12px 18px;
+  background-color: #f5f5f5;
+  color: #86878b;
+}
+
+.avatar {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding-bottom: 102px;
+}
+
+.pic {
+  display: flex;
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.b_Image {
+  background: linear-gradient(rgba(51, 51, 51, 0.58), rgba(51, 51, 51, 0.58)),
+    url(images/4.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.caption {
+  padding-top: 54px;
+  color: #ffffff;
+}
+
+.content {
+  margin-bottom: 38px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.btn {
+  width: 134px;
+  height: 42px;
+  margin-bottom: 54px;
+  border: 1px solid#FFFFFF;
+  background: transparent;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  margin-top: 1px;
+  background: #000000;
+}
+
+.facebook {
+  background: #3c5a9a;
+  background-image: url(./images/Facebook.png);
+
+  border-radius: 50%;
+}
+
+.gmail {
+  margin-left: 34px;
+  background: #dc4e41;
+  background-image: url(./images/G.png);
+}
+
+.twitter {
+  background: #2daae1;
+  background-image: url(./images/Twitter.png);
+
+  border-radius: 50%;
+}
+
+.instagram {
+  background: radial-gradient(
+    111.73% 111.73% at 69.27% 94.6%,
+    rgba(140, 58, 170, 0) 64%,
+    #8c3aaa 100%
+  );
+  background-image: url(./images/insta.png);
+}
+
+.linkedin {
+  background: linear-gradient(135deg, #2489be 14.64%, #0575b3 85.36%);
+  background-image: url(./images/linkedin.png);
+
+  border-radius: 50%;
+}
+
+.pinterest {
+  background: #ce0000;
+  background-image: url(./images/pinterest.png);
+
+  border-radius: 50%;
+}
+
+.m-lr-34 {
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.b-pr {
+  width: 32px;
+  height: 32px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.m-tb {
+  margin-top: 28px;
+  margin-bottom: 64px;
+}
