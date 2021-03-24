@@ -200,8 +200,8 @@
   display: flex;
 }
 
-.m-l-10 {
-  margin-right: 10px;
+.p-l-10 {
+  padding-left: 10px;
 }
 
 .name {
